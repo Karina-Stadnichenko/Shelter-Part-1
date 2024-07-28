@@ -156,3 +156,41 @@ section {
     max-width: 100%;
     height: auto;
 }
+
+/*ABOUT*/
+
+.about {
+    margin-top: 45px;
+    padding-bottom: 95px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    padding: 0 45px;
+}
+
+.about-text {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h-about {
+    font-size: 35px;
+    color: #545454;
+    max-width: 360px;
+    line-height: 45.5px;
+    letter-spacing: 2.1px;
+    margin: 15px 0 15px 0;
+}
+
+.sub-about {
+    margin-top: 10px;
+    color: #4C4C4C;
+    line-height: 24px;
+}
