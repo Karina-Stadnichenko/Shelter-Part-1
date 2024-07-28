@@ -101,6 +101,52 @@ section {
     background-color: #FDDCC4;
 }
 
+/* HELP */
+
+.help {
+    padding: 50px 0 85px 0;
+}
+
+.help-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-help {
+    text-align: center;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2.1px;
+    width: 360px;
+    color: #4C4C4C;
+    margin: 0 auto;
+
+}
+
+.help-vector-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 57px 10px;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.vector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 55px;
+}
+
+.help-sub {
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
 
 /*Header*/
 
