@@ -41,3 +41,75 @@ p {
 section {
     display: block;
 }
+
+/*Header*/
+
+.greeting {
+    width: 100%;
+    height: 908px;
+    position: absolute;
+    z-index: -1;
+    background: url(./img/start-screen-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: block;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 30px 10px 0 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo-link {
+    font-size: 32px;
+    color: #F1CDB3;
+    line-height: 35.2px;
+    letter-spacing: 1.92px;
+}
+
+.subtitle {
+    font-size: 13px;
+    margin: 10px 0 0 5px;
+    color: #FFFFFF;
+    letter-spacing: 1.3px;
+}
+
+.header-nav {
+    display: block;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    color: #CDCDCD;
+    gap: 36.6px;
+}
+
+.header-nav-link {
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.header-nav-link:hover {
+    color: #FFFFFF;
+}
+
+.header-nav a.active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+}
