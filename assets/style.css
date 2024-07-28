@@ -194,3 +194,68 @@ section {
     color: #4C4C4C;
     line-height: 24px;
 }
+
+/*PETS*/
+
+.pets {
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+
+.pets-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 48px 0 100px 0;
+}
+
+.h-container {
+    text-align: center;
+    height: 90px;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.h-pets {
+    color: #4C4C4C;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2.1px;
+}
+
+.pets-slider {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    padding: 0 15px;
+}
+
+.pets-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    padding-bottom: 30px;
+}
+
+.pets-card:hover {
+    box-shadow: rgba(13, 13, 13, 0.14);
+    background-color: #FFFFFF;
+}
+
+.pets-img img {
+    width: 100%;
+}
+
+.pets-text {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+    color: #545454;
+    line-height: 22.72px;
+    letter-spacing: 1.2px;
+    margin-top: 27px;
+}
