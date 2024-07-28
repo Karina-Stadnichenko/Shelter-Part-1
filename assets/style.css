@@ -42,6 +42,66 @@ section {
     display: block;
 }
 
+/* BUTTON */
+
+.btn {
+    font-family: Georgia;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 1.02px;
+    color: #292929;
+    border-radius: 100px;
+    padding: 15px 45px 15px 45px;
+}
+
+.btn:hover {
+    background-color: #FDDCC4;
+}
+
+.more-btn {
+    border: 2px solid #F1CDB3;
+    
+    display: inline-block;
+    color: #292929;
+    line-height: 22.2px;
+    margin-top: 13px;
+    padding: 14px 44px;
+}
+
+.get-to-know-btn {
+    align-self: center;
+    margin-top: 60px;
+}
+
+.arrow-btn-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arrow-btn-left {
+    left: 0%;
+}
+
+.arrow-btn-right {
+    right: 0%;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 45.9%;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background-color: #f6f6f6;
+    padding: 15px 18px 16px 18px;
+    max-width: 100%;
+}
+
+.arrow-btn:hover {
+    background-color: #FDDCC4;
+}
+
+
 /*Header*/
 
 .greeting {
