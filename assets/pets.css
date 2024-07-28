@@ -1,5 +1,4 @@
 /* General styles */
-
 * {
     box-sizing: border-box;
 }
@@ -25,7 +24,6 @@ nav a {
 }
 
 a {
-    color: #CDCDCD;
     text-decoration: none;
 }
 
@@ -102,17 +100,7 @@ section {
     background-color: #FDDCC4;
 }
 
-/*Header*/
-
-.greeting {
-    width: 100%;
-    height: 908px;
-    position: absolute;
-    z-index: -1;
-    background: url(./img/start-screen-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/* HEADER */
 
 .header {
     display: block;
@@ -137,7 +125,7 @@ section {
 
 .header-logo-link {
     font-size: 32px;
-    color: #F1CDB3;
+    color: #545454;
     line-height: 35.2px;
     letter-spacing: 1.92px;
 }
@@ -145,7 +133,7 @@ section {
 .subtitle {
     font-size: 13px;
     margin: 10px 0 0 5px;
-    color: #FFFFFF;
+    color: #292929;
     letter-spacing: 1.3px;
 }
 
@@ -156,106 +144,26 @@ section {
 .header-nav-list {
     display: flex;
     justify-content: space-between;
-    color: #CDCDCD;
+    color: #545454;
     gap: 36.6px;
 }
 
 .header-nav-link {
     font-size: 15px;
     line-height: 160%;
+    color: #545454;
 }
 
 .header-nav-link:hover {
-    color: #FFFFFF;
+    color: #545454;
 }
 
 .header-nav a.active {
-    color: #FAFAFA;
+    color: #292929;
     border-bottom: 3px solid #F1CDB3;
 }
 
-/*Greeting*/
-
-.start-screen-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-
-.start-screen-text {
-    margin: 160px 32px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.h-start-screen {
-    font-size: 44px;
-    max-width: 310px;
-    color: #FFFFFF;
-    line-height: 57.2px;
-    margin-bottom: 28px;
-}
-
-.sub-start-screen {
-    max-width: 475px;
-    line-height: 24px;
-    margin-bottom: 40px;
-    color: #CDCDCD;
-}
-
-.btn:hover {
-    background-color: #FDDCC4;
-}
-
-.start-screen-img-container {
-    max-width: 100%;
-}
-
-.img {
-    max-width: 100%;
-    height: auto;
-}
-
-/*ABOUT*/
-
-.about {
-    margin-top: 45px;
-    padding-bottom: 95px;
-}
-
-.about-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 120px;
-    padding: 0 45px;
-}
-
-.about-text {
-    width: 430px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.h-about {
-    font-size: 35px;
-    color: #545454;
-    max-width: 360px;
-    line-height: 45.5px;
-    letter-spacing: 2.1px;
-    margin: 15px 0 15px 0;
-}
-
-.sub-about {
-    margin-top: 10px;
-    color: #4C4C4C;
-    line-height: 24px;
-}
-
-/*PETS*/
+/* PETS */
 
 .pets {
     background-color: #f6f6f6;
@@ -289,7 +197,7 @@ section {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 58px;
-    padding: 0 15px;
+    gap: 29px 0;
 }
 
 .pets-card {
@@ -318,131 +226,6 @@ section {
     line-height: 22.72px;
     letter-spacing: 1.2px;
     margin-top: 27px;
-}
-
-/* HELP */
-
-.help {
-    padding: 50px 0 85px 0;
-}
-
-.help-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.h-help {
-    text-align: center;
-    font-size: 35px;
-    line-height: 45.5px;
-    letter-spacing: 2.1px;
-    width: 360px;
-    color: #4C4C4C;
-    margin: 0 auto;
-
-}
-
-.help-vector-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 57px 10px;
-    margin-top: 50px;
-    padding: 0 10px;
-}
-
-.vector {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 55px;
-}
-
-.help-sub {
-    color: #545454;
-    font-family: Georgia, sans-serif;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 1.2px;
-}
-
-/* DONATION */
-
-.donation {
-    background-color: #f6f6f6;
-}
-
-.donat-content {
-    padding: 49px 40px 90px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.donat-img {
-    padding-top: 10px;
-}
-
-.donat-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 31px;
-    max-width: 380px;
-}
-
-.h-donat {
-    font-size: 35px;
-    line-height: 45.5px;
-    letter-spacing: 2.1px;
-    margin-top: 0;
-    margin-bottom: 19px;
-    padding-right: 65px;
-    color: #545454;
-}
-
-.donat-bank {
-    margin-bottom: 19px;
-    color: #545454;
-    font-family: Georgia, sans-serif;
-    font-size: 15px;
-    line-height: 16.5px;
-    letter-spacing: 0.9px;
-}
-
-.donat-card {
-    width: 349px;
-    height: 43px;
-    border-radius: 9px;
-    background: #F1CDB3;
-    padding: 10px 15px 10px 15px;
-}
-
-.donat-card:hover {
-    background-color: #FDDCC4;
-}
-
-.donat-card-img {
-    display: inline-block;
-    margin-right: 12px;
-}
-
-.donat-card-number {
-    display: inline-block;
-    vertical-align: super;
-    font-family: Georgia, sans-serif;
-    font-size: 20px;
-    color: #545454;
-    margin: 0;
-}
-
-.donat-sub {
-    margin-top: 20px;
-    color: #B2B2B2;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    line-height: 18px;
 }
 
 /* FOOTER */
